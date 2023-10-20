@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/auth.css">
+	<link rel="shortcut icon" href="img/header/cactus.png" type="image/png">
+
+	<title>cactus</title>
+</head>
+<body class="authorization">
+
+		<form class="form" action="validation/auth.php" method="post">
+			<div class="content__form">
+				<a href="index.html"><div class="left-arrow"></div></a>
+				<h1 class="form__title">Authorization</h1>
+			</div>
+
+			<div class="form__group">
+				<label class="form__label1">Username</label>
+				<input class="form__input1" type="text" id="login" name="login" placeholder="From 5 to 40 characters">
+			</div>
+			<div class="form__group">
+				<label class="form__label2">Password</label>
+				<input class="form__input2" type="password" id="password" name="password" placeholder="From 8 to 40 characters">
+			</div>
+			<button class="form__button btn" type="submit">login</button>
+
+			<h1 class="form__password">If you don't have an account, <a href="reg.html" class="link__password">sign up!</a></h1>
+		</form>
+
+</body>
+</html>
